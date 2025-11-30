@@ -4,14 +4,21 @@
     "prettier": "^3.7.3"
   },
   "devDependencies": {
+    "@eslint/js": "^9.39.1",
     "@tsconfig/node22": "^22.0.5",
     "@types/express": "^5.0.5",
     "@types/node": "^24.10.1",
-    "typescript": "^5.9.3"
+    "dotenv": "^17.2.3",
+    "eslint": "^9.39.1",
+    "eslint-plugin-perfectionist": "^4.15.1",
+    "nodemon": "^3.1.11",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.48.0"
   },
   "scripts": {
     "dev": "tsc --watch src/helloworld.ts",
-    "start": "node dist/helloworld.js",
+    "start": "ts-node src/index.ts",
     "build": "tsc",
     "type-check": "tsc --noEmit",
     "lint": "eslint .",
