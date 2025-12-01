@@ -17,8 +17,8 @@
     "typescript-eslint": "^8.48.0"
   },
   "scripts": {
-    "dev": "tsc --watch src/helloworld.ts",
-    "start": "ts-node src/index.ts",
+    "dev": "tsc --watch src/server.ts",
+    "start": "ts-node src/server.ts",
     "build": "tsc",
     "type-check": "tsc --noEmit",
     "lint": "eslint .",
